@@ -1,5 +1,7 @@
 A simple phone menu for twilio using twiml
 
+Upload it to a server. Point a twilio number at the /index.php
+
 - 1
   voicemail
 - 2
