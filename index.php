@@ -1,7 +1,7 @@
 <?php
 
 // include the menu configuration
-include('menu.php');
+include('config.php');
 
 ?>
 <Response>
@@ -16,7 +16,7 @@ include('menu.php');
             $voice = ($count % 2) ? "man" : "woman";
             ?>
             <Say voice="<?php echo $voice; ?>"><?php echo $option['say']; ?></Say>
-            <?php 
+            <?php
             $count++;
           } ?>
     </Gather>

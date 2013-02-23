@@ -1,10 +1,10 @@
 <?php
 
 // include the menu configuration
-include('menu.php');
+include('config.php');
 
 // get the redirect url
-$redirect = $options[$_POST['Digits']]['url'];
+$redirect = $menu[$_POST['Digits']]['url'];
 
 ?>
 <Response>
